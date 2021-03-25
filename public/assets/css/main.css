@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+
+
+.fw-montserrat-thin{
+    font-weight: 100;
+}
+
+.fw-montserrat-extralight{
+    font-weight: 200;
+}
+
+.fw-montserrat-light{
+    font-weight: 300;
+}
+
+.fw-montserrat-regular{
+    font-weight: 400;
+}
+
+.fw-montserrat-medium{
+    font-weight: 500;
+}
+
+.fw-montserrat-semibold{
+    font-weight: 600;
+}
+
+.fw-montserrat-bold{
+    font-weight: 700;
+}
+
+.fw-montserrat-extrabold{
+    font-weight: 800;
+}
+
+.fw-montserrat-black{
+    font-weight: 900;
+}
+
+.fw-lora-regular{
+    font-weight: 400;
+}
+
+.fw-lora-medium{
+    font-weight: 500;
+}
+
+.fw-lora-semibold{
+    font-weight: 600;
+}
+
+.fw-lora-bold{
+    font-weight: 700;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+.font-lora {
+    font-family: 'Lora', serif;
+}
+
+.color-blue {
+    color: #2E37A4;
+}
+.color-navy {
+    color: #161A4F;
+}
+.color-orange {
+    color: #FE721C;
+}
+.color-white {
+    color: #fff;
+}
+.color-grey {
+  color: #a0a0a0;
+}
+
+.bg-blue {
+    background-color: #2E37A4;
+}
+.bg-tosca {
+    background-color: #0DBC9C;
+}
+.bg-grey {
+    background-color: #ABABAB;
+}
+.bg-orange {
+    background-color: #FE721C;
+}
+.bg-navy {
+    background-color: #161A4F;
+}
+.bg-yellow {
+    background-color: #F9B234;
+}
+.bg-whitesmoke {
+    background-color: #EAEAEA;
+}
+
+
+.btn-orange {
+    color: #fff;
+    background-color: #FE721C;
+    border-color: #FE721C;
+  }
+  .btn-orange:hover {
+    color: #fff;
+    background-color: #161A4F;
+    border-color: #161A4F;
+  }
+  .btn-check:focus + .btn-orange, .btn-orange:focus {
+    color: #fff;
+    background-color: #161A4F;
+    border-color: #161A4F;
+    box-shadow: 0 0 0 0.25rem rgba(255, 102, 0, 0.5);
+  }
+  .btn-check:checked + .btn-orange, .btn-check:active + .btn-orange, .btn-orange:active, .btn-orange.active, .show > .btn-orange.dropdown-toggle {
+    color: #fff;
+    background-color: #FE721C;
+    border-color: #FE721C;
+  }
+  .btn-check:checked + .btn-orange:focus, .btn-check:active + .btn-orange:focus, .btn-orange:active:focus, .btn-orange.active:focus, .show > .btn-orange.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(255, 102, 0, 0.5);
+  }
+  .btn-orange:disabled, .btn-orange.disabled {
+    color: #fff;
+    background-color: #FE721C;
+    border-color: #FE721C;
+  }
+
+  .btn-tosca {
+    color: #fff;
+    background-color: #0DBC9C;
+    border-color: #0DBC9C;
+  }
+  .btn-tosca:hover {
+    color: #fff;
+    background-color: #F9B234;
+    border-color: #F9B234;
+  }
+  .btn-check:focus + .btn-tosca, .btn-tosca:focus {
+    color: #fff;
+    background-color: #F9B234;
+    border-color: #F9B234;
+    box-shadow: 0 0 0 0.25rem rgba(49, 253, 236, 0.5);
+  }
+  .btn-check:checked + .btn-tosca, .btn-check:active + .btn-tosca, .btn-tosca:active, .btn-tosca.active, .show > .btn-tosca.dropdown-toggle {
+    color: #fff;
+    background-color: #F9B234;
+    border-color: #F9B234;
+  }
+  .btn-check:checked + .btn-tosca:focus, .btn-check:active + .btn-tosca:focus, .btn-tosca:active:focus, .btn-tosca.active:focus, .show > .btn-tosca.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(49, 253, 236, 0.5);
+  }
+  .btn-tosca:disabled, .btn-tosca.disabled {
+    color: #fff;
+    background-color: #0DBC9C;
+    border-color: #0DBC9C;
+  }
+
+  .btn-yellow {
+    color: #fff;
+    background-color: #F9B234;
+    border-color: #F9B234;
+  }
+  .btn-yellow:hover {
+    color: #fff;
+    background-color: #0DBC9C;
+    border-color: #0DBC9C;
+  }
+  .btn-check:focus + .btn-yellow, .btn-yellow:focus {
+    color: #fff;
+    background-color: #0DBC9C;
+    border-color: #0DBC9C;
+    box-shadow: 0 0 0 0.25rem rgba(253, 239, 49, 0.5);
+  }
+  .btn-check:checked + .btn-yellow, .btn-check:active + .btn-yellow, .btn-yellow:active, .btn-yellow.active, .show > .btn-yellow.dropdown-toggle {
+    color: #fff;
+    background-color: #0DBC9C;
+    border-color: #0DBC9C;
+  }
+  .btn-check:checked + .btn-yellow:focus, .btn-check:active + .btn-yellow:focus, .btn-yellow:active:focus, .btn-yellow.active:focus, .show > .btn-yellow.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(253, 239, 49, 0.5);
+  }
+  .btn-yellow:disabled, .btn-yellow.disabled {
+    color: #fff;
+    background-color: #F9B234;
+    border-color: #F9B234;
+  }
